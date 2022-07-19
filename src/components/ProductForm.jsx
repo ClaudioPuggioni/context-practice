@@ -21,6 +21,7 @@ const Form = () => {
       <div className="input-item">
         <label className="label">Update Price: </label>
         <input
+          type="number"
           className="input"
           id="itemPrice"
           onChange={(e) => {
